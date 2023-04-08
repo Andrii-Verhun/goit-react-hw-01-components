@@ -13,7 +13,7 @@ export const Profile = ({ avatar, username, tag, location, stats }) => {
             tag={tag}
             location={location}
         />
-        <Stats stats={stats} tag={tag} />
+        <Stats stats={stats} />
     </div>
 };
 

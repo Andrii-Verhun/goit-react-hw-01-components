@@ -1,0 +1,13 @@
+.transaction-history {
+    width: 620px;
+    background: #d6dde0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.head {
+    height: 40px;
+    background: #00bcd5;
+    color: #fff;
+    text-transform: uppercase;
+}

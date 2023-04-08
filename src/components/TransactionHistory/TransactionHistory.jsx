@@ -5,7 +5,6 @@ import css from './TransactionHistory.module.css';
 import { Transaction } from './Transaction/Transaction';
 
 export const TransactionHistory = ({ transactions }) => {
-    console.log(transactions);
     return (
         <table className={css["transaction-history"]}>
             <thead>

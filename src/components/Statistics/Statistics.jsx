@@ -7,8 +7,6 @@ export const Statistics = ({ upload }) => {
         return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, 0)}`;
     };
 
-    console.log(upload);
-
     return (
         <section className={css.statistics}>
             <h2 className={css.title}>Upload stats</h2>
